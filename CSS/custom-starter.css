@@ -1,0 +1,67 @@
+header {
+	background: no-repeat center center;
+	background-size: cover;
+	color: white;
+}
+
+.color-overlay {
+	background-color: rgba(0, 0, 0, 0.4);
+	min-height: 60vh;
+}
+
+body {
+	background-color: #F4F6F1;
+}
+
+main {
+	flex: 1 0 auto;
+}
+
+.hero-text{
+	font-size: 4.5vw;
+	opacity: .5;
+	letter-spacing: 1px;
+}
+
+.btn-outline-dark{
+	background-color: #F3F3F3;
+}
+
+.btn-outline-dark:hover{
+	background-color: #3E3E3E;
+}
+
+.navbar-light, 
+.navbar-toggler{
+	color: #3C3C3C;
+	border-color: #3C3C3C;
+}
+
+.navbar-light, 
+.navbar-toggler:hover{
+	color: #3C3C3C;
+	border-color: #3C3C3C;
+}
+
+.singleCol {
+	max-width: 750px;
+}
+
+footer {
+	flex-shrink: 0;
+	background-color: #3a3a3a;
+}
+
+footer a {
+	color: #F4F6F1;
+}
+
+footer a:hover {
+	color: floralwhite;
+}
+
+@media (max-width: 767.98px) {
+	.color-overlay {
+		min-height: 30vh;
+	}
+}
